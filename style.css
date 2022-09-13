@@ -1,0 +1,140 @@
+body{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+.container{
+    display: flex;
+}
+.page-login{
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+    background-color: #ffffff;
+}
+.introduction p:nth-child(1){
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom:2px;
+    color: #333333;
+}
+.introduction p:nth-child(3){
+    font-size: 14px;
+    color: #dddddd;
+}
+.logo-1{
+    font-size: 30px;
+    margin-bottom:-10px;
+    background:linear-gradient(90deg, #2788e2 20%, #3b67b8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.logo-1 span{
+    font-weight:500;
+}
+.form-login{
+    margin-top:100px;
+    padding:0px 100px;
+}
+.form{
+    width: 75%;
+    background-color: none;
+    text-align: center;
+    margin: auto;
+}
+.form-user{
+    margin-bottom:10px;
+    background-color: #ffffff;
+    height: 10%;
+    padding: 3px;
+    border: 2px solid #f1f1f1;
+    border-radius:20px;
+}
+.form-user i{
+    color: #4267B2;
+}
+.form-user input{
+    padding: 10px;
+    width: 80%;
+    border:none;
+    background:none;
+    outline:none;
+}
+
+.form input[type="button"]{
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    outline:none;
+    border: none;
+    background:linear-gradient(90deg, #2788e2 20%, #3b67b8);
+    color: white;
+    border-radius: 20px;
+}
+.sign{
+    background-color:none ;
+}
+.sign p{
+    font-size: 14px;
+    color: #333333;
+    line-height: 50px;
+}
+.sign p a{
+    text-decoration: none;
+    color: blue;
+}
+.sosial-media{
+    margin: auto;
+    
+}
+.sosial-media a{
+    font-size: 14px;
+    margin: 0px 10px;
+    text-transform: none;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.fa-brands{
+    display: inline-block;
+    width: 50px;
+    background: none;
+    border: 2px solid #f1f1f1;
+    margin:auto;
+    border-radius:50%;
+    line-height: 50px;
+    color:#333333 ;
+}
+.fa-facebook-f{color: #4267B2;}
+.fa-twitter{color:#1DA1F2;}
+.fa-instagram{color:#ab57db;}
+.fa-linkedin{color:#0e76a8;}
+
+/* page image */
+.page-image{
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+    background-image:url("page.jpg");
+    background-repeat: no-repeat;
+}
+.page-image p{
+    width: 75%;
+    color: whitesmoke;
+    margin: auto;
+    font-size: 12px;
+}
+.image{
+    margin-top: 250px;
+}
+.logo-2{
+    line-height: -10px;
+}
+.logo-2 i{
+    font-size: 75px;
+}
+.logo-2 p{
+    font-size: 30px;
+}
